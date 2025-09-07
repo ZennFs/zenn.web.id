@@ -1,4 +1,4 @@
-  <h1>zenn.my.id</h1>
+  <h1>zenn.web.id</h1>
   <p>🔥 Personal website was built originally from scratch using Next.js, TypeScript, Tailwind CSS, SWR, Supabase and more.</p>
 
 <br/>
