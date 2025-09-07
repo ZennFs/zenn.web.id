@@ -13,6 +13,15 @@ interface ProjectDetailPageProps {
   params: { slug: string };
 }
 
+function JsonLd({ data }: { data: any }) {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
 export const generateMetadata = async ({
   params,
 }: ProjectDetailPageProps): Promise<Metadata> => {
@@ -51,12 +60,36 @@ const ProjectDetailPage = async ({ params }: ProjectDetailPageProps) => {
   const PAGE_TITLE = data?.title;
   const PAGE_DESCRIPTION = data?.description;
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: data.title,
+    applicationCategory: "DeveloperApplication",
+    description: data.description,
+    url: `${METADATA.openGraph.url}/projects/${data.slug}`,
+    image: `${METADATA.openGraph.url}${data.image}`,
+    author: {
+      "@type": "Person",
+      name: METADATA.creator,
+      url: METADATA.openGraph.url,
+    },
+    operatingSystem: "Web",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "IDR",
+    },
+  };
+
   return (
-    <Container data-aos="fade-up">
-      <BackButton url="/projects" />
-      <PageHeading title={PAGE_TITLE} description={PAGE_DESCRIPTION} />
-      <ProjectDetail {...data} />
-    </Container>
+    <>
+      <JsonLd data={structuredData} />
+      <Container data-aos="fade-up">
+        <BackButton url="/projects" />
+        <PageHeading title={PAGE_TITLE} description={PAGE_DESCRIPTION} />
+        <ProjectDetail {...data} />
+      </Container>
+    </>
   );
 };
 

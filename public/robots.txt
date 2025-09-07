@@ -1,0 +1,11 @@
+# public/robots.txt
+
+# Allow all crawlers to access all content
+User-agent: *
+Allow: /
+
+# Disallow crawlers from accessing Next.js internal folders (optional but good practice)
+Disallow: /_next/
+
+# Location of the sitemap
+Sitemap: https://zenn.web.id/sitemap.xml
