@@ -4,8 +4,6 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaNpm, FaGolang } from "react-icons/fa6";
 import {
   SiCss3,
-  SiExpress,
-  SiFramer,
   SiGithub,
   SiHtml5,
   SiJavascript,
@@ -18,7 +16,6 @@ import {
   SiVite,
   SiLaravel,
   SiPhp,
-  SiRedux,
   SiVuedotjs,
   SiFirebase,
   SiReactrouter,
@@ -26,14 +23,11 @@ import {
   SiReacttable,
   SiMysql,
   SiMongodb,
-  SiAstro,
-  SiBun,
-  SiYarn,
-  SiNestjs,
   SiSupabase,
-  SiJest,
-  SiDocker,
-  SiKotlin,
+  SiCodeigniter,
+  SiLivewire,
+  SiWordpress,
+  SiElementor,
 } from "react-icons/si";
 
 export type SkillProps = {
@@ -126,18 +120,7 @@ export const STACKS: SkillProps = {
     color: "text-yellow-400",
     isActive: true,
   },
-  Redux: {
-    icon: <SiRedux size={iconSize} />,
-    background: "bg-violet-500",
-    color: "text-violet-500",
-    isActive: true,
-  },
-  "Astro.js": {
-    icon: <SiAstro size={iconSize} />,
-    background: "bg-violet-600",
-    color: "text-violet-600",
-    isActive: true,
-  },
+
   "Next.js": {
     icon: <SiNextdotjs size={iconSize} />,
     background: "bg-neutral-800",
@@ -148,24 +131,6 @@ export const STACKS: SkillProps = {
     icon: <SiNodedotjs size={iconSize} />,
     background: "bg-green-600",
     color: "text-green-600",
-    isActive: true,
-  },
-  "Express.js": {
-    icon: <SiExpress size={iconSize} />,
-    background: "bg-neutral-800",
-    color: "text-neutral-800",
-    isActive: true,
-  },
-  "Nest.js": {
-    icon: <SiNestjs size={iconSize} />,
-    background: "bg-rose-600",
-    color: "text-rose-600",
-    isActive: false,
-  },
-  Go: {
-    icon: <FaGolang size={iconSize} />,
-    background: "bg-sky-500",
-    color: "text-sky-500",
     isActive: true,
   },
   PHP: {
@@ -180,16 +145,34 @@ export const STACKS: SkillProps = {
     color: "text-red-700",
     isActive: true,
   },
+  Livewire: {
+    icon: <SiLivewire size={iconSize} />,
+    background: "bg-red-700",
+    color: "text-red-700",
+    isActive: true,
+  },
+  CodeIgniter: {
+    icon: <SiCodeigniter size={iconSize} />,
+    background: "bg-orange-700",
+    color: "text-orange-700",
+    isActive: true,
+  },
+  Wordpress: {
+    icon: <SiWordpress size={iconSize} />,
+    background: "bg-blue-500",
+    color: "text-blue-500",
+    isActive: true,
+  },
+  Elementor: {
+    icon: <SiElementor size={iconSize} />,
+    background: "bg-gray-500",
+    color: "text-gray-500",
+    isActive: true,
+  },
   Prisma: {
     icon: <SiPrisma size={iconSize} />,
     background: "bg-teal-500",
     color: "text-teal-500",
-    isActive: true,
-  },
-  Kotlin: {
-    icon: <SiKotlin size={iconSize} />,
-    background: "bg-violet-600",
-    color: "text-violet-600",
     isActive: true,
   },
   PostgreSql: {
@@ -222,42 +205,14 @@ export const STACKS: SkillProps = {
     color: "text-emerald-500",
     isActive: true,
   },
-  Jest: {
-    icon: <SiJest size={iconSize} />,
-    background: "bg-pink-600",
-    color: "text-pink-600",
-    isActive: false,
-  },
-  Docker: {
-    icon: <SiDocker size={iconSize} />,
-    background: "bg-blue-600",
-    color: "text-blue-500",
-    isActive: true,
-  },
-  AI: {
-    icon: <BsRobot size={iconSize} />,
-    background: "bg-fuchsia-700",
-    color: "text-fuchsia-700",
-    isActive: true,
-  },
+
   Npm: {
     icon: <FaNpm size={iconSize} />,
     background: "bg-red-700",
     color: "text-red-500",
     isActive: true,
   },
-  Yarn: {
-    icon: <SiYarn size={iconSize} />,
-    background: "bg-violet-800",
-    color: "text-sky-400",
-    isActive: true,
-  },
-  bun: {
-    icon: <SiBun size={iconSize} />,
-    background: "bg-orange-100",
-    color: "text-yellow-50",
-    isActive: true,
-  },
+
   Github: {
     icon: <SiGithub size={iconSize} />,
     background: "bg-slate-800",

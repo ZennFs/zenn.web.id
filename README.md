@@ -1,19 +1,13 @@
-  <h1>satriabahari.my.id</h1>
-  <p>🔥 Personal website was built originally from scratch using Next.js, TypeScript, Tailwind CSS, SWR, Supabase and more.</p> 
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/satriabahari/satria.com)](https://github.com/satriabahari/satria.com/stargazers)
-[![Depfu](https://badges.depfu.com/badges/02483ebb21fdb2182a66a28b68d1b7b0/status.svg)](https://depfu.com)
-[![Depfu](https://badges.depfu.com/badges/02483ebb21fdb2182a66a28b68d1b7b0/overview.svg)](https://depfu.com/github/satriabahari/satria.com?project_id=38809)
-[![Depfu](https://badges.depfu.com/badges/02483ebb21fdb2182a66a28b68d1b7b0/count.svg)](https://depfu.com/github/satriabahari/satria.com?project_id=38809)
-[![Last Update](https://img.shields.io/badge/deps%20update-every%20sunday-blue.svg)](https://shields.io/)
+  <h1>zenn.my.id</h1>
+  <p>🔥 Personal website was built originally from scratch using Next.js, TypeScript, Tailwind CSS, SWR, Supabase and more.</p>
 
 <br/>
 
-<img width="1525" height="1221" alt="Screenshot 2025-08-07 115929" src="https://github.com/user-attachments/assets/fcf5a30b-0ad8-4a57-b1bf-e846e4ed416c" />
+<img width="1525" height="1221" alt="Screenshot 2025-08-07 115929" src="" />
 
 ## 📘 Introduction
 
-This is my personal website built from scratch since February 2024 using modern technologies such as Next.js and TypeScript.
+This is my personal website built from scratch since Agustus 2025 using modern technologies such as Next.js and TypeScript.
 
 I use this platform to share projects, insights, and resources. The site is constantly evolving as I add more features and improvements.
 
@@ -44,16 +38,21 @@ This website is built using these technologies:
 ## 🚀 Features
 
 ### 🕗 Wakatime Statistics
+
 Displays live coding statistics from Wakatime using serverless API routes in Next.js.
 
 ### 🗳 Project Showcase
+
 Projects are stored in a Supabase PostgreSQL database. Uses ISR (1s revalidation) and SSR for optimal performance.
 
 ### 🌍 Internationalization
+
 Supports multiple languages using `next-intl`. Easily extendable to support additional locales.
 
 ### 📊 Developer Dashboard
+
 Interactive dashboard visualizing:
+
 - GitHub contributions
 - Wakatime data
 - Codewars stats
@@ -70,36 +69,16 @@ Follow these steps to run the project locally:
 ### 1. Clone the Repository
 
 Using Git:
+
 ```bash
-git clone https://github.com/satriabahari/satriabahari.my.id
+git clone https://github.com/ZennFs/zenn.web.id
 ```
 
 Using `create-next-app`:
-```bash
-npx create-next-app -e https://github.com/satriabahari/satriabahari.my.id project-name
-```
-
-Using `degit`:
-```bash
-npx degit satriabahari/satriabahari.my.id YOUR_APP_NAME
-```
-
-Or deploy directly to Vercel / Netlify:
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/satriabahari/satriabahari.my.id)  
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/satriabahari/satriabahari.my.id)
-
----
-
-### 2. Install Dependencies
 
 ```bash
-bun install
+npx create-next-app -e https://github.com/ZennFs/zenn.web.id project-name
 ```
-
-> ⚠️ It's recommended to use **Bun** to ensure husky hooks and scripts work properly.
-
----
 
 ### 3. Configure Environment Variables
 
@@ -110,6 +89,7 @@ cp .env.example .env
 ```
 
 You’ll need credentials for services like:
+
 - Nodemailer
 - GitHub
 - Wakatime

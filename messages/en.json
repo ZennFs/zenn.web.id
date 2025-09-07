@@ -1,9 +1,9 @@
 {
   "HomePage": {
-    "intro": "Hi, I'm Satria Bahari",
-    "location": "Based in Jambi, Indonesia 🇮🇩",
+    "intro": "Hi, I'm Moch Zein Fahmi Salas",
+    "location": "Based in Surabaya, Indonesia 🇮🇩",
     "location_type": "Onsite",
-    "resume": "Experienced and passionate Fullstack Developer specializing in building scalable and efficient digital solutions. On the frontend, I work with Next.js, TypeScript, and Tailwind CSS to craft responsive and accessible user interfaces. On the backend, I develop robust services using Golang, and for mobile, I build native Android apps with Kotlin. I’m a collaborative and detail-oriented engineer committed to delivering well-structured, high-performance applications across platforms.",
+    "resume": "Experienced and passionate Fullstack Developer specializing in building scalable and efficient digital solutions. On the frontend, I work with Next.js, TypeScript, and Tailwind CSS to craft responsive and accessible user interfaces. On the backend, I develop php framework Laravel. I’m a collaborative and detail-oriented engineer committed to delivering well-structured, high-performance applications across platforms.",
     "skills": {
       "title": "Skills",
       "sub_title": "My professional skills."
@@ -17,11 +17,11 @@
     "title": "About",
     "description": "A brief introduction to who I am.",
     "resume": {
-      "paragraf_1": "Hello there! Thank you for visiting my personal website. I'm Satria Bahari, a student majoring in Information Systems at the University of Jambi. I'm a Fullstack Developer with a passion for building impactful software products. My stack includes modern frontend technologies like Next.js, TypeScript, and Tailwind CSS, as well as backend development using Golang. For mobile applications, I develop native Android apps using Kotlin.",
+      "paragraf_1": "Hello there! Thank you for visiting my personal website. I'm Moch Zein Fahmi Salas, a student majoring in Computer Technology at the Politeknik NSC Surabaya. I have a strong interest in backend development. With a solid foundation in PHP, JavaScript and TypeScript, as well as a comprehensive understanding of various frondend and backend libraries and frameworks, I have navigated the ever-evolving landscape of web development with enthusiasm and dedication.",
 
       "paragraf_2": "I enjoy creating solutions that are both user-friendly and performant. Whether it's building intuitive interfaces or architecting backend services, I aim to bring efficiency and clarity into every layer of the application. I’m a fast learner who thrives in dynamic environments, and I enjoy solving complex problems collaboratively.",
 
-      "paragraf_3": "I believe that great communication and team synergy are key to success in software development. My experience has shaped my technical and analytical skills, as well as my leadership qualities. I'm always excited to work in teams, learn from others, and contribute to impactful projects.",
+      "paragraf_3": "I believe that great communication and team synergy are key to success in software development. My experience has shaped my technical and analytical skills. I'm always excited to work in teams, learn from others, and contribute to impactful projects.",
 
       "paragraf_4": "Best regards,"
     },
@@ -185,7 +185,7 @@
   "Footer": {
     "hire": "Hire me.",
     "copyright_1": "COPYRIGHT © ",
-    "copyright_2": "Satria Bahari. All rights reserved."
+    "copyright_2": "Moch Zein Fahmi Salas. All rights reserved."
   },
   "LocaleSwitcher": {
     "en": "🇺🇸",

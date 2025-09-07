@@ -14,9 +14,18 @@ import AchievementFolder from "@/modules/home/components/Bento/AchievementFolder
 
 import { BentoItemProps } from "../types/bento";
 
-const AnimatedListProject = dynamic(() => import("@/modules/home/components/Bento/AnimatedListProject"), { ssr: false });
-const StackImagesPersonal = dynamic(() => import("@/modules/home/components/Bento/StackImagesPersonal"), { ssr: false });
-const TrueFocusService = dynamic(() => import("@/modules/home/components/Bento/TrueFocusService"), { ssr: false });
+const AnimatedListProject = dynamic(
+  () => import("@/modules/home/components/Bento/AnimatedListProject"),
+  { ssr: false },
+);
+const StackImagesPersonal = dynamic(
+  () => import("@/modules/home/components/Bento/StackImagesPersonal"),
+  { ssr: false },
+);
+const TrueFocusService = dynamic(
+  () => import("@/modules/home/components/Bento/TrueFocusService"),
+  { ssr: false },
+);
 
 const size = 22;
 
@@ -45,7 +54,7 @@ export const BENTO: BentoItemProps[] = [
   },
   {
     title: "Skills & Tools",
-    description: "Covering mobile, web, AI, and UI/UX technologies.",
+    description: "Covering web, AI and UI/UX technologies.",
     label: "Stack",
     icon: <DashboardIcon size={size} />,
     visual: <MarqueeIcons />,
@@ -78,7 +87,7 @@ export const BENTO: BentoItemProps[] = [
   },
   {
     title: "Services",
-    description: "End-to-end solutions in web, mobile, AI, and design.",
+    description: "End-to-end solutions in web, AI, and design.",
     label: "Services",
     icon: <ContactIcon size={size} />,
     visual: <TrueFocusService />,

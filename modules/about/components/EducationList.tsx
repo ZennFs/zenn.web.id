@@ -19,7 +19,7 @@ const EducationList = () => {
         <SectionSubHeading>
           <p>{t("sub_title")}</p>
           <div className="mt-2 flex flex-col gap-4 md:mt-0 md:flex-row">
-            <Portfolio />
+            {/* <Portfolio /> */}
             <Resume />
           </div>
         </SectionSubHeading>

@@ -14,4 +14,4 @@ export type ProjectItem = {
 
 export type ProjectItemProps = {
   projects: ProjectItem[];
-}
+};

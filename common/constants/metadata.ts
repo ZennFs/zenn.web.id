@@ -1,16 +1,16 @@
 export const METADATA = {
-  creator: "Satria Bahari",
-  description: "Personal website, portfolio, blog",
-  keyword: "satria, satria bahari",
+  creator: "Moch Zein Fahmi Salas",
+  description: "Personal website, portfolio, project",
+  keyword: "zein, moch zein, zein salas",
   authors: {
-    name: "Satria Bahari",
+    name: "Moch Zein Fahmi Salas",
     url: process.env.DOMAIN,
   },
   openGraph: {
     url: process.env.DOMAIN,
-    siteName: "Satria Bahari",
+    siteName: "Moch Zein Fahmi Salas",
     locale: "id-ID",
   },
-  exTitle: "| Satria Bahari",
-  profile: "/images/satria.jpg",
+  exTitle: "| Moch Zein Fahmi Salas",
+  profile: "/images/zen-2.jpg",
 };

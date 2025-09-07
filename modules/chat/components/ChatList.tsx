@@ -20,7 +20,7 @@ const ChatList = ({
 }: ChatListPropsNew) => {
   const chatListRef = useRef<HTMLDivElement | null>(null);
   const [hasScrolledUp, setHasScrolledUp] = useState(false);
-  const [chatListHeight, setChatListHeight] = useState('500px');
+  const [chatListHeight, setChatListHeight] = useState("500px");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,16 +54,16 @@ const ChatList = ({
 
   useEffect(() => {
     const handleResize = () => {
-      const newHeight = isWidget ? '500px' : `${window.innerHeight - 360}px`;
+      const newHeight = isWidget ? "500px" : `${window.innerHeight - 360}px`;
       setChatListHeight(newHeight);
     };
 
     handleResize();
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, [isWidget]);
 
